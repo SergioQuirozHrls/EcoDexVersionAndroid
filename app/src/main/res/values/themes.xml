@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 💬 Tema para AlertDialog -->
+    <style name="EcoDexAlertDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <!-- Fondo del cuadro de diálogo -->
+        <item name="android:windowBackground">@color/card_dark</item>
+
+        <!-- Texto del diálogo -->
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+
+        <!-- Botones dentro del diálogo -->
+        <item name="android:buttonStyle">@style/EcoDexAlertDialogButton</item>
+    </style>
+
+    <style name="EcoDexAlertDialogButton"
+        parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/text_primary_light</item>
+    </style>
+
+    <!-- 🌙 Tema principal de la app -->
+    <style name="Theme.EcoDexAndroid" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Fondo general -->
+        <item name="android:windowBackground">@color/bg_dark</item>
+
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/accent_green</item>
+        <item name="colorPrimaryDark">@color/accent_green_dark</item>
+        <item name="colorAccent">@color/accent_green</item>
+
+        <!-- Texto global -->
+        <item name="android:textColor">@color/text_primary_light</item>
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+
+        <!-- Botones grises -->
+        <item name="colorButtonNormal">@color/button_gray</item>
+        <item name="colorControlHighlight">@color/button_gray_pressed</item>
+
+        <!-- Usar nuestro tema oscuro para los diálogos -->
+        <item name="alertDialogTheme">@style/EcoDexAlertDialog</item>
+        <item name="android:alertDialogTheme">@style/EcoDexAlertDialog</item>
+    </style>
+
+</resources>

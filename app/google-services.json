@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "12593166113",
+    "project_id": "pokedexsergioromojohana",
+    "storage_bucket": "pokedexsergioromojohana.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12593166113:android:c676cf91e7e83f96367060",
+        "android_client_info": {
+          "package_name": "com.example.ecodexandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12593166113-36fruun87rlds7kpvmlnscuojllu5hvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecodexandroid",
+            "certificate_hash": "a0ccaaddbcdf1aa35b4756a4c8aa652a7a5cd400"
+          }
+        },
+        {
+          "client_id": "12593166113-1mq1afha3ejqnumfbt19qi9lk08dmirg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChkPgK9DFG0wDPE-_HdZ8T7LMVQJQuauM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12593166113-1mq1afha3ejqnumfbt19qi9lk08dmirg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

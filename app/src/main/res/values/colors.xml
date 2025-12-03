@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fondo y tarjetas -->
+    <color name="bg_dark">#111827</color>          <!-- fondo general -->
+    <color name="card_dark">#1F2933</color>        <!-- tarjetas / barras -->
+
+    <!-- Verdes como la web -->
+    <color name="accent_green">#22C55E</color>
+    <color name="accent_green_dark">#16A34A</color>
+
+    <!-- Texto -->
+    <color name="text_primary_light">#F9FAFB</color>
+    <color name="text_secondary_light">#9CA3AF</color>
+
+    <!-- Botones neutros -->
+    <color name="button_gray">#7D7978</color>
+    <color name="button_gray_pressed">#63605F</color>
+
+    <!-- Líneas / bordes -->
+    <color name="divider_gray">#7D7978</color>
+</resources>
