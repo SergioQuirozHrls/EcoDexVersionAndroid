@@ -1,0 +1,1 @@
+EcoDex Android es la adaptación nativa del proyecto web EcoDex, desarrollada en Android Studio con Kotlin. La aplicación permite consultar información ecológica de plantas a través de una API externa y ofrece funciones de autenticación, favoritos y sincronización de datos mediante Google Firebase.
